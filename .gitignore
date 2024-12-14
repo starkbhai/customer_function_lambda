@@ -1,8 +1,8 @@
    # .gitignore
    .env
    .env.local
-   .env.*.localnode_modules/
+   .env.*.local
     node_modules
     .DS_Store
     Archive.zip
-node_modules/
+
