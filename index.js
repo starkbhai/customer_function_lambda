@@ -3,7 +3,7 @@
 
 exports.handler = async (event, context) => {
     let response;
-    console.log("EVENT ->->->::::::::::::->->: ", event);
+    console.log("EVENT ->->->::::::::::::->->: new event check for this ", event);
     console.log("Resource : ", event.resource);
     try {
       initConstants(event, context);
