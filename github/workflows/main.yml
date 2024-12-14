@@ -1,4 +1,4 @@
-name: customers service pipeline
+name: Demo customers service pipeline
 on:
   push:
     branches: "**"
@@ -7,7 +7,7 @@ jobs:
     name: run tests
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [22.x]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
