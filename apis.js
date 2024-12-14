@@ -1,7 +1,6 @@
 const { default: axios } = require("axios");
 const { getAlias } = require("./constants");
-const paymentServiceURL =
-  "https://oeibf65v72.execute-api.us-east-1.amazonaws.com";
+const paymentServiceURL = "https://oeibf65v72.execute-api.us-east-1.amazonaws.com";
 
 function apiStage() {
   const lambdaAlias = getAlias();

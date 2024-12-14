@@ -2,4 +2,6 @@
    .env
    .env.local
    .env.*.localnode_modules/
-node_modules
+    node_modules
+    .DS_Store
+    Archive.zip
