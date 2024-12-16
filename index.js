@@ -1,6 +1,3 @@
-
-
-
 exports.handler = async (event, context) => {
     let response;
     console.log("EVENT ->->->::::::::::::->->: new event check for this ", event);
